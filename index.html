@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lãi suất</title>
+</head>
+<body>
+    <div class="container">
+        <div class="convert">
+            <label  for="">Money</label>
+            <input type="text" placeholder="0" id="money">
+            <label for="">Time</label>
+            <select id="time">
+            <option value="6">6 month</option>
+            <option value="12">12 month</option>
+            <option value="24">24 month</option>
+            </select>
+            <label for="">Interestrate</label>
+            <input type="text" placeholder="0" id="interestrate">
+            <button onclick="convert()">Result</button>   
+               <h3 id="result"></h3>
+        </div>
+  
+        <script src="interest.js"></script>
+</body>
+</html>
